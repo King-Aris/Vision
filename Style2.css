@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #0a0a0a, #1a1a1a);
+    color: white;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 2em;
+    background-color: transparent;
+  }
+  
+  .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 1.5em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 2em;
+    flex-wrap: wrap;
+  }
+  
+  .hero-text {
+    max-width: 50%;
+  }
+  
+  .highlight {
+    color: #f36c24;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  
+  .hero-text h1 {
+    font-size: 3em;
+    margin: 0.4em 0;
+  }
+  
+  .hero-text p {
+    color: #ccc;
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+  }
+  
+  .cta-button {
+    background: linear-gradient(to right, #f36c24, #ff9a5a);
+    padding: 0.8em 1.5em;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .socials {
+    margin-top: 2em;
+    display: flex;
+    gap: 1em;
+  }
+  
+  .socials a {
+    color: #999;
+    text-decoration: none;
+  }
+  
+  .hero-images .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 1em;
+  }
+  
+  .hero-images img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #333;
+  }
+  
